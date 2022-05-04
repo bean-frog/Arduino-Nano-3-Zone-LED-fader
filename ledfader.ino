@@ -1,6 +1,6 @@
 /*
- * Lighting option 2 script for michela's sculpture thing
- * made by graeme kieran
+ * script for 3 LED zones
+ * made by me
  * 
  * <for reference>
  * Common VCC5V
