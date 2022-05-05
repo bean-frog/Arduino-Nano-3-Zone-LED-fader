@@ -10,7 +10,7 @@
  */
 
 
-const int red1 = 2;  //defining all used pins as constant integers
+const int red1 = 2;  //defining all used pins as constants
 const int green1 = 3;
 const int blue1 = 4;
 
