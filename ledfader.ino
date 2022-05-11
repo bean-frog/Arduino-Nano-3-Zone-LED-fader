@@ -1,5 +1,5 @@
 /*
- * script for 3 LED zones
+ * fades 3 LED zones
  * made by me
  * 
  * <for reference>
@@ -31,15 +31,15 @@ const int blue3 = 10;
 
 void setup() {  //setting the previously defined variables as outputs
   pinMode(red1, OUTPUT);
-  pinMode(green1, OUTPUT);
+  pinMode(green1, OUTPUT); //Zone 1
   pinMode(blue1, OUTPUT);
 
   pinMode(red2, OUTPUT);
-  pinMode(green2, OUTPUT);
+  pinMode(green2, OUTPUT); //Zone 2
   pinMode(blue2, OUTPUT);
 
   pinMode(red3, OUTPUT);
-  pinMode(green3, OUTPUT);
+  pinMode(green3, OUTPUT); //Zone 3
   pinMode(blue3, OUTPUT);
   
 }
@@ -56,6 +56,21 @@ int r, g, b;
     analogWrite(green3, g);
     delay(fadeSpeed);
   }
- for (
-} 
+ for (b = 0; b < 128; b++) {
+    analogWrite(blue1, b);
+    analogWrite(blue3, b);
+    delay(fadeSpeed);
+ }
+ for (g = 0; g < 255; g++) {
+    analogWrite(green2, g);
+    analogWrite(green3, g);
+    delay(fadeSpeed);
+ }
+ for (g = 0; g < 128; g++) {
+    analogWrite(green1, g);
+    analogWrite(green3, g);
+    delay(fadeSpeed);
+ }
+ }
+  
  
