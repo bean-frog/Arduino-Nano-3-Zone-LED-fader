@@ -71,6 +71,11 @@ int r, g, b;
     analogWrite(green3, g);
     delay(fadeSpeed);
  }
+ for (b = 128; b < 256; b++); {
+   analogWrite(blue1, b);
+   analogWrite(blue2, b);
+   analogWrite(blue3, b);
+ }
  }
   
  
