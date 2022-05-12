@@ -75,6 +75,7 @@ int r, g, b;
    analogWrite(blue1, b);
    analogWrite(blue2, b);
    analogWrite(blue3, b);
+   delay(fadeSpeed);
  }
  }
   
