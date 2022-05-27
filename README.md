@@ -5,7 +5,7 @@
 **UPLOADING:**
   - download arduino IDE from https://arduino.cc/en/software
   - install the IDE
-  - download this github repo as a .zip and extract 
+  - download this github repo as a .zip and extract (green button that says "Code" > click "Download as ZIP"
   - in the folder double click the file called "ledfader.ino", it should open a new arduino IDE window
   - look at the top of the screen for a thing that says tools, and click it
   - in the drop-down menu click "board" and select "Arduino Nano"
