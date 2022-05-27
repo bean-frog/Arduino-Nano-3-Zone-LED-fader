@@ -1,5 +1,5 @@
 /*
- * fades 3 LED zones
+ * fades 3 LED zones (currently just blue/green tones)
  * made by me
  * 
  * <for reference>
@@ -77,6 +77,7 @@ int r, g, b;
    analogWrite(blue3, b);
    delay(fadeSpeed);
  }
- }
+ 
+}
   
  
