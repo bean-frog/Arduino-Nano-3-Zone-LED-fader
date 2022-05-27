@@ -13,6 +13,7 @@
   - click verify (the round button with a checkmark) and make sure there are no errors (there is a console at the bottom)
   - if there are no errors, click upload which is next to verify, and if there were either google it or send me a screenshot
   - the lamp should start cycling through some shades of blue/green and maybe purple if i coded that right
+  - you can get back to these instructions either through the github page, or by double clicking the "README.md" file if you've downloaded the repository
   
 
 
